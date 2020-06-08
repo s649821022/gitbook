@@ -11,7 +11,7 @@
 
 #### 用pycharm创建django项目
 
-![](http://m.qpic.cn/psc?/V12zIqyN1nULTY/IuPP.iXwoDzL23w4nRtQckEN8C2jXbn5cfFjyQzLfydIdepGjA3KuRXTYsRpB7vfUmeG8aXZ6zILqYN1*9XTQA!!/b&bo=3QNtAgAAAAADB5M!&rf=viewer_4)
+![](http://i1.fuimg.com/720825/236bcdbb9c295e27.png)
 
 
 
@@ -34,10 +34,10 @@
 
 #### 分享一个pycharm自带的manage.py工具
 
-![](http://m.qpic.cn/psc?/V12zIqyN1nULTY/Wikhxl.6Q5GRLBXYyjrKSolR0H0*Onm7CJxUdduA6sJJuc*fn6pibFbWh7b1wMEs38TFW7WaBpAzIBvVWgthEUtjt9NM2x4nSG8ea5X4pds!/b&bo=CQOIAQAAAAADF7E!&rf=viewer_4)
+![](http://i1.fuimg.com/720825/b4b3893bbbd04ab5.png)
 
 > 以后就不用再命令行里使用`python manage.py + 命令`
 >
 > 直接在pycharm自带的工具中输入命令
 
-![](http://m.qpic.cn/psc?/V12zIqyN1nULTY/Wikhxl.6Q5GRLBXYyjrKSnzXyVVNPO7wkk7Pq75NuOg6dFLbppRDpj*AAeR3*axpqlDmoAJ2rtle1J4JhG5fInZ8cn4FqqI1nRY*X86k2PY!/b&bo=cwMRAQAAAAADF1I!&rf=viewer_4)
+![](http://i1.fuimg.com/720825/2af09249314b14c4.png)

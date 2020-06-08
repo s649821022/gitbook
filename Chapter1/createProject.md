@@ -34,10 +34,10 @@
 
 #### 分享一个pycharm自带的manage.py工具
 
-![](http://m.qpic.cn/psc?/V12zIqyN1nULTY/IuPP.iXwoDzL23w4nRtQctugZL41xvJTR.uAeyEHG5y0se8w7UMiBTc1YzeF2ijhGpm5cLcKQrDngA9bY034IQ!!/b&bo=CQOIAQAAAAADB6E!&rf=viewer_4)
+![](http://m.qpic.cn/psc?/V12zIqyN1nULTY/Wikhxl.6Q5GRLBXYyjrKSolR0H0*Onm7CJxUdduA6sJJuc*fn6pibFbWh7b1wMEs38TFW7WaBpAzIBvVWgthEUtjt9NM2x4nSG8ea5X4pds!/b&bo=CQOIAQAAAAADF7E!&rf=viewer_4)
 
 > 以后就不用再命令行里使用`python manage.py + 命令`
 >
 > 直接在pycharm自带的工具中输入命令
 
-![](http://m.qpic.cn/psc?/V12zIqyN1nULTY/IuPP.iXwoDzL23w4nRtQcuFnHp8MkBGCgD9Jd0oqbQm881s1WyucUq9E.ZyRUZGwqBDOHFh3ul*Jls7GcC4bhg!!/b&bo=cwMRAQAAAAADB0I!&rf=viewer_4)
+![](http://m.qpic.cn/psc?/V12zIqyN1nULTY/Wikhxl.6Q5GRLBXYyjrKSnzXyVVNPO7wkk7Pq75NuOg6dFLbppRDpj*AAeR3*axpqlDmoAJ2rtle1J4JhG5fInZ8cn4FqqI1nRY*X86k2PY!/b&bo=cwMRAQAAAAADF1I!&rf=viewer_4)

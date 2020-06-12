@@ -15,7 +15,7 @@
   * [第1节：FBV](Chapter3/FBV.md)
   * [第2节：文件下载](Chapter3/fileDownload.md)
   * [第3节：文件上传](Chapter3/fileUpload.md)
-  * [第3节：HttpResponse请求](Chapter3/wsgiHttpREquest.md)
+  * [第4节：HttpResponse请求](Chapter3/wsgiHttpRequest.md)
 * [第四章](Chapter4/README.md)
 
 

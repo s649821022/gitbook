@@ -11,7 +11,11 @@
   * [第3节：url命名](Chapter2/url_name.md)
   * [第4节：url标签](Chapter2/url_tag.md)
   * [第5节：re_path](Chapter2/re_path.md)
-* [第三章](Chapter3/README.md)
+* [第三章:FBV视图](Chapter3/README.md)
+  * [第1节：FBV](Chapter3/FBV.md)
+  * [第2节：文件下载](Chapter3/fileDownload.md)
+  * [第3节：文件上传](Chapter3/fileUpload.md)
+  * [第4节：httpRequest请求](Chapter3/wsgiHttpRequest.md)
 * [第四章](Chapter4/README.md)
 
 

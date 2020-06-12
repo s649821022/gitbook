@@ -13,15 +13,15 @@
 path('detail/<book_id>/',views.book_detail,name='detail')
 
 # url反转，使用位置参数
-<a href="{% url 'book:detail' 1 %}">图书详情页面</a>
+<a href="{url 'book:detail' 1 %}">图书详情页面</a>
 
 # url反转，使用关键字参数
-<a href="{% url 'book:detail' book_id=1 %}">图书详情页面</a>
+<a href="{url 'book:detail' book_id=1 %}">图书详情页面</a>
 ```
 
 如果想要在使用`url`标签反转的时候要传递查询字符串的参数，那么必须要手动在在后面添加。示例代码如下：
 
-```python
+```python``````
 <a href="{% url 'book:detail' book_id=1 %}?page=1">图书详情页面</a>
 ```
 

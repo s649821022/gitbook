@@ -17,6 +17,7 @@
   * [第3节：文件上传](Chapter3/fileUpload.md)
   * [第4节：HttpResponse请求](Chapter3/wsgiHttpRequest.md)
 * [第四章](Chapter4/README.md)
-
+  * [第1节：ORM模型](Chapter4/ORM.md)
+  * [第1节：模型常用字段](Chapter4/ORM_Field.md)
 
 

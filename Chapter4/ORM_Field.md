@@ -55,3 +55,45 @@
 | ordering     | 属性值为列表，将模型数据以某个字段进行排序                   |
 | verbose_name | 属性值为字符串，设置模型直观可读的名称并以复数形式表示       |
 
+<u>关于Django时间的补充</u>
+
+**什么是navie时间？什么是aware时间？**
+
+1.navie时间：不知道自己的时间表示哪个时区。也就是不知道自己几斤几两，比较幼稚
+
+2.aware时间：知道自己的时间表示的是哪个时区的。也就是比较清醒。
+
+#### pytz库
+
+> 专门用来处理时区的库，这个库会经常更新一些时区的数据，不需要我们担心，并且这个库在安装Django的时候回默认的安装。如果没有安装，那么可以通过`pip install pytz`的方式进行安装
+
+
+
+#### astimezone方法
+
+将一个时区的时间转换为另一个时区的时间。这个方法只能被aware类型的时间调用。不能被navie类型的时间调用。示例代码如下：
+
+```python
+import pytz
+from datetime import datetime
+now = datetime.now() # 这是一个navie类型的时间
+utc_timezone = pytz.timezone("UTC") # 定义UTC的时区对象
+utc_now = now.astimezone(utc_timezone) # 将当前的时间转换为UTC时区的时间
+>> ValueError: astimezone() cannot be applied to a naive datetime # 会抛出一个异常，原因就是因为navie类型的时间不能调用astimezone方法
+
+
+now = now.replace(tzinfo=pytz.timezone('Asia/Shanghai'))
+utc_now = now.astimezone(utc_timezone)
+# 这时候就可以正确的转换。
+```
+
+以上操作皆在linux上进行，windows上不会出现此问题，因为windows调用的时间API和linux上不同
+
+#### django.utils.timezone.now方法：
+
+会根据`settings.py`文件中是否设置了`USE_TZ=True`获取当前的时间。如果为Ture，那么就获取一个aware类型的UTC时间，如果为False，那么就获取一个navie类型的时间
+
+#### django.utils.timezone.localtime方法
+
+会根据`setting.py`中的`TIME_ZONE`来将一个aware类型的时间转换为`TIME_ZONE`指定时区的时间
+

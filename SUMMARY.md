@@ -20,5 +20,8 @@
   * [第1节：ORM模型](Chapter4/ORM.md)
   * [第2节：模型常用字段](Chapter4/ORM_Field.md)
   * [第3节：外键和表关系](Chapter4/foreignkey.md)
+  * [第4节：查询条件](Chapter4/select.md)
+  * [第5节：聚合函数](Chapter4/aggregate.md)
+  * [第6节：QuerySet](Chapter4/queryset.md)
 
 

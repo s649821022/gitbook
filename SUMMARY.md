@@ -27,5 +27,10 @@
   * [第6节：QuerySet](Chapter4/queryset.md)
   * [第7节：数据库事务](Chapter4/transaction.md)
   * [第8节：migrate迁移错误](Chapter4/migrate.md)
-
-
+* [第五章](Chapter5/README.md)
+  * [第1节：模板继承](Chapter5/template.md)
+  * [第2节：加载静态文件](Chapter5/static.md)
+  * [第3节：自定义过滤器](Chapter5/filter.md)
+* [第六章](Chapter6/README.md)
+  * [第1节：ModelForm](Chapter6/modelForm.md)
+  * [第2节：表单验证](Chapter6/field.md)

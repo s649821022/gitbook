@@ -33,4 +33,4 @@
   * [第3节：自定义过滤器](Chapter5/filter.md)
 * [第六章](Chapter6/README.md)
   * [第1节：ModelForm](Chapter6/modelForm.md)
-  * [第2节：表单验证](Chapter6/field.md)
+  * [第2节：表单验证](Chapter6/field1.md)
